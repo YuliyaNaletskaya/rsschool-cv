@@ -1,4 +1,4 @@
-![photo](https://media.licdn.com/dms/image/C4E03AQGGgcnBDRxylQ/profile-displayphoto-shrink_800_800/0/1516872112823?e=1693440000&v=beta&t=VsOqgtRR1THeplmHGEIzPBZrLjfwQj74AYqSm0NSc6I)
+![photo](./img/photo_1.jpg)
 
 ## Yuliya Naletskaya
 *******
