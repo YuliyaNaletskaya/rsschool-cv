@@ -36,9 +36,12 @@ let summation = function (num) {
 
 ### Education
 + Belarusian National Technical University, Minsk
-    - Civil Engineering major
+    - Civil Engineer
 + School of Business of BSU, Minsk 
-    - Web-designer, web-developer
+    - Web-designer, Web-developer
+*******
+### Experience
+Website as an study project at the BSU
 *******
 
 ### Languages
