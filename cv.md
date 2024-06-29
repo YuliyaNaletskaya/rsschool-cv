@@ -5,7 +5,7 @@
 **Phone:** +375 29 856 15 82  
 **E-mail:** naletskaya@gmail.com  
 **GitHub:** YuliyaNaletskaya  
-**LinkedIn:** [Yuliya Naletskaya](https://www.linkedin.com/in/yuliya-naletskaya-08140698/)  
+**LinkedIn:** [Yuliya Naletskaya](https://www.linkedin.com/in/yuliya-naletskaya-08140698/)
 *******
 
 ### About Me
@@ -17,8 +17,8 @@ My goal is to learn everything new and interesting. I am interested in web devel
 * JavaScript (Basic)
 * VS Code, GitHub
 * Figma, Adobe Photoshop, Animate CC
-* PHP
-* SQL
+* PHP, SQL
+* Wordpress
 *******
 
 ### Code examples
