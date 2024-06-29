@@ -21,6 +21,7 @@ My goal is to learn everything new and interesting. I am interested in web devel
 * Wordpress
 *******
 
+
 ### Code examples
 ```
 let summation = function (num) {
