@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.header {
+    padding: 10px;
+    
+    background-color: #2f9d68;
+}
+.nav-list {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.nav-item {
+    padding: 0 20px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f0f8ff;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover {
+    border-bottom: #f0f8ff solid 4px;
+    transition: 0.3s;
+}
+
+.toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    margin: 0px;
+}
+
+.line {
+    width: 80%;
+    height: 4px;
+    background-color: #f0f8ff;
+    margin: 2px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 50px;
+    background-color: #fbebcf;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-title {
+    text-align: center;
+}
+
+.section-title-main {
+    margin: 0;
+    padding: 15px;
+    font-size: 36px;
+    border-bottom: 2px solid #322d2d;
+}
+
+.section-title-profile {
+    margin: 15px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.left-container {
+    width: 40%;
+    padding: 0 40px 20px 80px;
+    background-color: #fbebcf;
+}
+
+.right-container {
+    width: 50%;
+    padding-bottom: 20px;
+    margin-right: 60px;
+}
+
+.section {
+    border-bottom: 4px solid #2f9d68;
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.contacts-list {
+    padding: 0;
+}
+
+.contacts-item {
+    list-style: none;
+    position: relative;
+    padding-left: 40px;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.contacts-item a {
+    text-decoration: none;
+    color: #2f9d68;
+}
+
+.contacts-item a:hover {
+    border-bottom: #2f9d68 2px dotted;
+}
+
+.contacts-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contacts-item:nth-child(1):before {
+    background-image: url(./assets/place.svg);
+}
+
+.contacts-item:nth-child(2):before {
+    background-image: url(./assets/mail.svg);
+}
+
+.contacts-item:nth-child(3):before {
+    background-image: url(./assets/git.svg);
+}
+
+.contacts-item:nth-child(4):before {
+    background-image: url(./assets/linkedin.svg);
+}
+
+.section-list {
+    padding: 0;
+}
+.section-item {
+    list-style: none;
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.8;
+}
+
+.section-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: #2f9d68 6px solid;
+    border-radius: 40%;
+}
+
+.pre {
+    margin: 0;
+    color: #2f9d68;
+    font-size: 20px;   
+}
+
+.footer{
+    padding: 20px;
+    background-color: #2f9d68;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #f0f8ff;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 850px) {
+    .nav-list {
+        display: none;
+    }
+    
+    .toggle {
+        display: flex;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .left-container {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .right-container {
+        width: 100%;
+        padding: 0 20px 20px;
+        margin: 0;
+    }
+}
