@@ -73,9 +73,9 @@ body {
 .profile {
     display: flex;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
-    gap: 250px;
+    gap: 200px;
     padding: 40px 140px;
     background-color: #fff9ee;
 }
