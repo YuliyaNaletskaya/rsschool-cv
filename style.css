@@ -73,10 +73,11 @@ body {
 .profile {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding: 40px 50px;
-    background-color: #fbebcf;
+    gap: 200px;
+    padding: 40px 140px;
+    background-color: #fff9ee;
 }
 
 .profile-photo {
@@ -105,7 +106,7 @@ body {
 .left-container {
     width: 40%;
     padding: 0 40px 20px 80px;
-    background-color: #fbebcf;
+    background-color: #fff9ee;
 }
 
 .right-container {
@@ -116,6 +117,10 @@ body {
 
 .section {
     border-bottom: 4px solid #2f9d68;
+}
+
+.last {
+  border-bottom: none;
 }
 
 .section-title {
@@ -132,7 +137,7 @@ body {
     position: relative;
     padding-left: 40px;
     font-weight: 600;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 .contacts-item a {
@@ -197,7 +202,7 @@ body {
 .pre {
     margin: 0;
     color: #2f9d68;
-    font-size: 20px;   
+    font-size: 18px;   
 }
 
 .footer{
@@ -213,12 +218,16 @@ body {
     color: #f0f8ff;
 }
 
+.gitlink > img {
+    height: 45px;
+}
+
 .rss {
     width: 121px;
     height: 45px;
-    background-image: url(./assets/rs_school_js.svg);
+   /* background-image: url(./assets/rs_school_js.svg);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 
 @media (max-width: 850px) {
