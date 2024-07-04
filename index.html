@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+      <header class="header">
+          <nav class="nav">
+              <ul class="nav-list">
+                  <li class="nav-item">
+                      <a href="#contacts" class="nav-link">Contacts</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#summary" class="nav-link">Summary</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#skills" class="nav-link">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#code" class="nav-link">Code example</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#project" class="nav-link">Project</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#education" class="nav-link">Education</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#languages" class="nav-link">Languages</a>
+                  </li>
+              </ul>
+          </nav>
+          <div class="toggle">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+          </div>
+      </header>
+      <main class="main">
+          <div class="container">
+              <section class="profile">
+                  <img src="./assets/img/photo_1.jpg" alt="photo" class="profile-photo">
+                  <div class="profile-title">
+                      <h1 class="section-title-main">Yuliya Naletskaya</h1>
+                      <h3 class="section-title-profile">Junior Web Developer</h3>
+                  </div>
+              </section>
+              <div class="left-container">
+                  <section class="section" id="contacts">
+                      <h2 class="section-title">Contacts</h2>
+                      <ul class="contacts-list">
+                          <li class="contacts-item">Minsk, Belarus</li>
+                          <li class="contacts-item">Email:
+                              <a href="mailto:naletskaya@gmail.com" title="email">naletskaya@gmail.com</a>
+                          </li>
+                          <li class="contacts-item">Github:
+                              <a href="https://github.com/YuliyaNaletskaya" title="github">YuliyaNaletskaya</a>
+                          </li>
+                          <li class="contacts-item">LinkedIn:
+                              <a href="https://www.linkedin.com/in/yuliya-naletskaya-08140698/" title="linkedin">Yuliya Naletskaya</a>
+                          </li>
+                      </ul>
+                  </section>
+                  <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item">HTML&amp;CSS</li>
+                        <li class="section-item">JavaScript</li>
+                        <li class="section-item">PHP, SQL</li>                        
+                        <li class="section-item">VS Code, GitHub, MySQL</li>
+                        <li class="section-item">CMS Wordpress</li>
+                        <li class="section-item">Figma, Adobe Photoshop, Animate CC</li>
+                    </ul>
+                  </section>
+                  <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Belarusian National Technical University, Minsk</li>
+                        <li class="section-item">School of Business of BSU, Minsk</li>
+                    </ul>
+                </section>
+                <section class="section last" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul class="section-list">
+                        <li class="section-item">Russian, Belarusian - native</li>
+                        <li class="section-item">English - A2</li>
+                        <li class="section-item">Polish - B1 (courses Polish institute in Minsk)</li>
+                    </ul>
+                </section>
+              </div>
+              <div class="right-container">
+                <section class="section" id="summary">
+                  <h2 class="section-title">Summary</h2>
+                  <p>I chose web development as a new path in my life because this area is constantly evolving and does not let me get bored. My goal is to learn everything new and interesting.</p>
+                  <p>I enjoy working in a team and solving interesting problems. I don't like to leave a problem unsolved. I love helping others. Sometimes it is difficult, but the result is worth all the effort.</p>
+                </section>
+                  <section class="section" id="code">
+                      <h2 class="section-title">Code example</h2>
+                      <pre class="pre"><code>let summation = function (num) {
+      let sum =0;
+      for (let int = 1; int &lt;= num; int++) {
+          sum = sum + int;
+      }
+      return sum;
+  }</code>
+                      </pre>
+                  </section>
+                  <section class="section last" id="project">
+                    <h2 class="section-title">Project</h2>
+                    <ul class="section-list">
+                        <li class="section-item"><a href="https://yuliyanaletskaya.github.io/currency-converter/">Currency converter</a></li>                        
+                    </ul>
+                    <p>This is my study project for JavaScript exam.<br>Translations into other languages ​​were made by my classmates (Thanks to them!).</p>
+                    <p>Link to code <a href="https://github.com/YuliyaNaletskaya/currency-converter/tree/gh-pages">https://github.com/YuliyaNaletskaya/currency-converter/tree/gh-pages</a></p>
+                  </section>                  
+              </div>
+          </div>
+      </main>
+      <footer class="footer">
+          <div class="container-footer">
+              <a href="https://github.com/YuliyaNaletskaya" title="github" class="gitlink"><img src="./assets/github-mark.svg" alt="gitlogo"></a>
+              <div>&copy; 2024 YuliyaNaletskaya</div>
+              <a href="https://rs.school/courses/javascript-ru" class="rss"><img src="./assets/rs_school_js.svg" alt="logo"></a>
+          </div>
+      </footer>
+  </body>
+</html>
